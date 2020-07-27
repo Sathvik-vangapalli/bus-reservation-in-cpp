@@ -114,10 +114,10 @@ void a::show()
 	while(n<=p)
 	{
 		vline('*');
-		cout<<"bus no: \t"<<bus[n].busn
-		<<"\nDriver: \t"<<bus[n].driver<<"\tArrival time: \t"
-		<<bus[n].arrival<<"\t\tDeparture time: \t"<<bus[n].depart
-		<<"\nFrom: \t"<<bus[n].from<<"\t\tTo: \t\t"<<bus[n].to<<"\n";
+		cout<<"bus no:  \t"<<bus[n].busn<<"\nDriver: \t"<<bus[n].driver
+  	<<"\tArrival time: \t"<<bus[n].arrival<<"\tDeparture Time: \t"
+  	<<bus[n].depart<<"\nFrom: \t"<<bus[n].from<<"\t\tTo: \t\t"
+  	<<bus[n].to<<"\n";
 		vline('*');
 		bus[0].position(n);
 		int a=1;
@@ -221,6 +221,8 @@ int main()
 
 OUTPUT:
 
+  
+
   1.Install
   2.Reservation
   3.Show
@@ -238,7 +240,7 @@ Departure time: 14:00
 
 From:           karimnagar
 
-to:             Hyderabad
+to:             hyderabad
 
 
   1.Install
@@ -265,9 +267,9 @@ The seat no. 12 is reservered for you.
 
   Enter your choice:->3
 Enter bus no: 11
-********************************************************************************bus no:         11
+********************************************************************************
 Driver:         RAM     Arrival time:   11:00           Departure time:         14:00
-From:   karimnagarHyderabad             To:             Hyderabad
+From:   karimnagar           To:             hyderabad
 ********************************************************************************
     1.     Empty    2.     Empty    3.     Empty    4.     Empty
     5.     Empty    6.     Empty    7.     Empty    8.     Empty
@@ -288,4 +290,3 @@ The seat no 12 is reserved for RAVI.
   5.Exit
 
   Enter your choice:->
-
